@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cryo Main & Battle Beast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome (for Facebook & GitHub icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
+  <style>
+    [data-aos] {
+      opacity: 0;
+      transition-property: opacity, transform;
+    }
+
+    /* Social icons style */
+    .social-icons {
+      margin-top: 15px;
+      text-align: center;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 24px;
+      color: #555;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #1877f2; /* Facebook blue */
+    }
+    .social-icons a.github:hover {
+      color: #181717; /* GitHub dark */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" data-aos="fade-down">
+  <div class="container">
+    <div class="box6">
+      <button class="login">Login</button>
+      <input type="text" class="textbox" placeholder="Search...">
+    </div>
+    <div class="box7">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero section -->
+<section id="hero" class="container1" data-aos="fade-up">
+  <div class="box1">
+    <h1 class="gg">Life as a Cryo Main</h1>
+    <p class="paragraph">
+      A Cryo main in Genshin Impact focuses on leveraging the Cryo element's unique strengths, such as freezing enemies with Hydro reactions for crowd control or amplifying damage via Melt and Superconduct. 
+      Top Cryo DPS picks like Ayaka, Ganyu, or Wriothesley excel at delivering high burst output, especially in Freeze or Melt teams paired with supports like Shenhe or Kazuha for buffs.
+      Cryo Resonance boosts crit rate against affected foes, making it ideal for endgame content like Spiral Abyss.
+    </p>
+  </div>
+  <div class="box2">
+    <img src="kaeya.jpeg" alt="my main" class="main">
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="container3" data-aos="fade-up">
+  <h1 class="gg">About Me</h1>
+  <p class="paragraph">
+    This page is a fun mix of gaming content and personal projects, showing how I balance strategy in games and life. It’s a space where you’ll see my favorite game‑related work—like mods, builds, and gameplay systems—alongside real‑world creations that reflect the same attention to planning, problem‑solving, and creativity. Whether it’s designing a game mechanic or tackling a coding or design challenge offline, I approach everything with the mindset of turning raw ideas into something structured, playable, and meaningful.
+  </p>
+</section>
+
+<!-- Features section (3D 360 carousel) -->
+<section id="features" class="container2 feature-section" data-aos="fade-up">
+  <h1 class="gg"> Pictures </h1>
+  <div class="carousel">
+    <img src="bennet.png" alt="Bennett" class="feature-img">
+    <img src="rosari.png" alt="Rosaria" class="feature-img">
+    <img src="sucrose.png" alt="Sucrose" class="feature-img">
+    <img src="varka.png" alt="Varka" class="feature-img">
+    <img src="diluc.png" alt="Bennett Support" class="feature-img">
+  </div>
+  <br>
+  <h1 class="gg"> Features</h1>
+  <p class="paragraph">
+    A short title  <br><br>
+    A small image or thumbnail <br><br>
+    A one‑sentence description <br><br>
+    A “Read more” button that expands an extra paragraph right on the same page
+  </p>
+</section>
+
+<!-- Testimonials section -->
+<section id="testimonials" class="container3" data-aos="fade-up">
+  <h1 class="gg">Testimonials</h1>
+  <div class="testimonials-list">
+    <p class="paragraph">
+      “This website gives a great mix of Genshin strategy and personality. Really useful for Cryo mains looking for team ideas.” — Player A
+    </p>
+    <p class="paragraph">
+      “The layout is clean and easy to navigate. I love the hero section and the feature images.” — Player B
+    </p>
+  </div>
+</section>
+
+<!-- FAQ section -->
+<section id="faq" class="container3" data-aos="fade-up">
+  <h1 class="gg">FAQ</h1>
+  <div class="faq-list">
+    <h3 class="paragraph">What is a Cryo main?</h3>
+    <p class="paragraph">
+      A Cryo main focuses on Cryo‑element characters and builds teams around Freeze, Melt, and Superconduct reactions.
+    </p>
+
+    <h3 class="paragraph">How do you deal with enemies immune to Cryo?</h3>
+    <p class="paragraph">
+      Use elemental reactions with Electro, Pyro, and Hydro to bypass Cryo immunity and control the battlefield.
+    </p>
+
+    <h3 class="paragraph">Why add AOS animations?</h3>
+    <p class="paragraph">
+      AOS (Animate on Scroll) makes sections appear smoothly as you scroll, improving visual flow and UX.
+    </p>
+  </div>
+</section>
+
+<!-- Contact / Form section -->
+<section id="contact" class="container4" data-aos="fade-up">
+  <div class="forms">
+    <form action="/submit_page.php" method="post" class="thebox">
+      <label for="email">Type email</label>
+      <input type="email" id="email" name="email" class="thebox1" required>
+      <br>
+      <label for="message">Type message</label>
+      <textarea id="message" name="message" class="thebox2" required></textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <div class="forms1">
+    <h1 class="gg"> Message </h1>
+    <p class="paragraph">
+      Got a question, idea, or just want to chat? Drop me a message and I’ll reply when I’m back from the game or the grind!
+    </p>
+    <button class="button1">Submit</button>
+
+    <!-- Social contact icons -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/yourusername" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://github.com/yourusername" target="_blank" title="GitHub" class="github">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<div class="container5">
+  <footer data-aos="fade-up">
+    Regil Kyle R ARIOLA <br>
+    Established 2026
+  </footer>
+</div>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: "ease-in-out",
+    once: true
+  });
+</script>
+
+</body>
+</html>
